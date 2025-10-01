@@ -10,7 +10,7 @@ from dotenv import load_dotenv
 
 # Configure Streamlit page
 st.set_page_config(
-    page_title="AlOmdaFlow",
+    page_title="OmdaFlow",
     page_icon="🤖",
     layout="wide",
     initial_sidebar_state="expanded",
@@ -195,7 +195,7 @@ def main():
     # Logo
     st.markdown("""
         <div class="logo-container">
-            <div class="logo-text">🤖 ProcessFlow AI</div>
+            <div class="logo-text">🤖 OmdaFlow </div>
             <div class="logo-subtext">Transform Text into Professional BPMN Diagrams</div>
         </div>
     """, unsafe_allow_html=True)
@@ -293,4 +293,5 @@ def main():
 if __name__ == "__main__":
 
     main()
+
 
