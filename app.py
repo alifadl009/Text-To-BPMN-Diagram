@@ -10,7 +10,7 @@ from dotenv import load_dotenv
 
 # Configure Streamlit page
 st.set_page_config(
-    page_title="ProcessFlow AI",
+    page_title="AlOmdaFlow",
     page_icon="🤖",
     layout="wide",
     initial_sidebar_state="expanded",
@@ -293,3 +293,4 @@ def main():
 if __name__ == "__main__":
 
     main()
+
