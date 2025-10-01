@@ -47,7 +47,7 @@ st.markdown("""
 # Initialize OpenAI client for DeepSeek API
 try:
     client = OpenAI(
-        api_key=st.secrets("DEEPSEEK_API_KEY"),
+        api_key=st.secrets["DEEPSEEK_API_KEY"],
         base_url="https://api.deepseek.com/v1"
     )
 except Exception as e:
@@ -291,4 +291,5 @@ def main():
                 st.code(st.session_state.bpmn_xml, language="xml")
 
 if __name__ == "__main__":
+
     main()
